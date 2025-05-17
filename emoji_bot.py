@@ -3,7 +3,7 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
-BOT_TOKEN = "8064443797:AAGoU_ktUMBBepYCTL9qZP_BYlf2p-6_vRk"
+BOT_TOKEN = "Your_BOT_TOKEN"
 JSON_FILE = "emoji_effects.json"
 
 def save_to_json(data, filename):
